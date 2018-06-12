@@ -23,12 +23,14 @@ import javax.sql.DataSource;
 public class Application {
     private static Logger logger = Logger.getLogger(Application.class);
 
+    //DataSource配置
     @Bean
     @ConfigurationProperties(prefix="spring.datasource")
     public DataSource dataSource() {
         return new org.apache.tomcat.jdbc.pool.DataSource();
     }
 
+    //提供SqlSession
     @Bean
     public SqlSessionFactory sqlSessionFactoryBean() throws Exception {
 
