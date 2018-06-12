@@ -1,4 +1,4 @@
-package cn.no7player.controller;
+package cn.xigua.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

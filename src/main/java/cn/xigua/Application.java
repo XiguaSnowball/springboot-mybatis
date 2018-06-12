@@ -1,4 +1,4 @@
-package cn.no7player;
+package cn.xigua;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.log4j.Logger;
@@ -19,7 +19,7 @@ import javax.sql.DataSource;
 @EnableAutoConfiguration
 @SpringBootApplication
 @ComponentScan
-@MapperScan("cn.no7player.mapper")
+@MapperScan("cn.xigua.mapper")
 public class Application {
     private static Logger logger = Logger.getLogger(Application.class);
 

@@ -1,7 +1,7 @@
-package cn.no7player.service;
+package cn.xigua.service;
 
-import cn.no7player.mapper.UserMapper;
-import cn.no7player.model.User;
+import cn.xigua.mapper.UserMapper;
+import cn.xigua.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

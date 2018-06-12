@@ -1,6 +1,6 @@
-package cn.no7player.mapper;
+package cn.xigua.mapper;
 
-import cn.no7player.model.User;
+import cn.xigua.model.User;
 
 /**
  * Created by zl on 2015/8/27.
