@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c56708d-ae5e-4381-90c5-1a93fbe22e1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/Application.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/config/SwaggerConfig.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/config/SwaggerConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/controller/HelloController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/controller/HelloController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/controller/SwaggerController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/controller/SwaggerController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/mapper/UserMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/model/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/no7player/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/xigua/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/UserMapper.xml" />
     </list>
     <ignored path="springboot-mybatis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -729,7 +718,7 @@
       <created>1528796912781</created>
       <option name="number" value="Default" />
       <updated>1528796912781</updated>
-      <workItem from="1528796916099" duration="679000" />
+      <workItem from="1528796916099" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1528797075039</created>
@@ -737,11 +726,17 @@
       <option name="project" value="LOCAL" />
       <updated>1528797075039</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改包名">
+      <created>1528797612645</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528797612645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679000" />
+    <option name="totallyTimeSpent" value="700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-191" width="2560" height="1417" extended-state="6" />
@@ -778,7 +773,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="修改包名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改包名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
